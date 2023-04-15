@@ -1,4 +1,4 @@
-# HauntedJaunt -- CS 314 Assignment 2
+# HauntedJaunt -- CS 410 Assignment 2
 ## Team Members (in alphabetical order)
 * Ethan Cha
 * Spencer Davis
