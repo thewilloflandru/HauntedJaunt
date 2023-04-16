@@ -11,12 +11,14 @@ public class PlayerMovement : MonoBehaviour
     Quaternion m_Rotation = Quaternion.identity; // essentially setting to 0 for a quaternion
     Animator m_Animator;
     Rigidbody m_Rigidbody;  // for physics
+    AudioSource m_AudioSource; // for audio
 
     // Start is called before the first frame update
     void Start()
     {
         m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
+        m_AudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,18 @@ public class PlayerMovement : MonoBehaviour
 
         // to set "IsWalking" param in Assets > Animation > Animators > JohnLennon
         m_Animator.SetBool("IsWalking", isWalking);
+        // set up aduio to play on movement logic gate
+        if (isWalking)
+        {
+            if (!m_AudioSource.isPlaying)
+            {
+                m_AudioSource.Play();
+            }
+        }
+        else
+        {
+            m_AudioSource.Stop();
+        }
 
 
         // Create rotation for character --------------------------------------
