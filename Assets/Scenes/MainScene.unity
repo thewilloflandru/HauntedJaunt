@@ -782,6 +782,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &416092802 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2368374751963599752, guid: 36575f781da4045469afc2aee7226264, type: 3}
+  m_PrefabInstance: {fileID: 2368374750455343745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &520586413 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4639920255644370367, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
@@ -5396,6 +5401,10 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 2059913670}
+    - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 416092802}
     - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
       propertyPath: waypoints.Array.size
       value: 2

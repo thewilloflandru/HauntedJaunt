@@ -670,6 +670,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 5658919750396391067}
   waypoints: []
+  target: {fileID: 2368374751963599750, guid: 36575f781da4045469afc2aee7226264, type: 3}
+  dotProductThreshold: -0.9
+  detectionDistance: 2
+  onDetectionWaitTime: 3
+  turnedWaitTime: 5
+  rotationSpeed: 3
 --- !u!1 &4639920255644539377
 GameObject:
   m_ObjectHideFlags: 0
