@@ -8,11 +8,12 @@
 ## Roles / Contributions
 ### Peter Warila
 Implemented Setup, Player Character, Environment, and original repo.
-
+### Ethan Cha
+Implemented additional functionalities
 ## Additional Functionality
 ### Dot Product
 ...
 ### Linear Interpolation
-...
+Gargoyles rotate every 10 seconds using Slerp (spherical linear interpolation). Configurable in Gargoyle prefab
 ### Particle Effects
 ...
