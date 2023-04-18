@@ -16,4 +16,4 @@ Implemented additional functionalities
 ### Linear Interpolation
 Gargoyles rotate every 10 seconds using Slerp (spherical linear interpolation). Configurable in Gargoyle prefab
 ### Particle Effects
-...
+Basic particle effects were added to the lights to look like flames coming off of it
