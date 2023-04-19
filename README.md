@@ -12,6 +12,8 @@ Implemented Setup, Player Character, Environment, and original repo.
 Implemented Enemies and Game Over functionality.
 ### Ethan Cha
 Implemented additional functionalities
+### Daniel Willard
+Implemented The Camera, Ending the Game, Audio
 ## Additional Functionality
 ### Dot Product
 Ghosts will know if the player is close by behind them. If they are, they will stop, wait, then suddenly turn around. The detection is powered by the dot product calculations, where if the dot product is less than -0.9 and are close to them (a small area behind them), they will interrupt their current AI path to stop and turn. 
