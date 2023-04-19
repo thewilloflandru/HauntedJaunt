@@ -8,6 +8,8 @@
 ## Roles / Contributions
 ### Peter Warila
 Implemented Setup, Player Character, Environment, and original repo.
+### Spencer Davis
+Implemented Enemies and Game Over functionality.
 ### Ethan Cha
 Implemented additional functionalities
 ## Additional Functionality
