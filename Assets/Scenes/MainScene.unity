@@ -612,6 +612,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2059913670}
     - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 415727133}
+    - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -4352,6 +4356,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2059913670}
     - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 415727133}
+    - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -5081,6 +5089,10 @@ PrefabInstance:
       propertyPath: gameEnding
       value: 
       objectReference: {fileID: 2059913670}
+    - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 415727133}
     - target: {fileID: 2863014724953837059, guid: b6303aa772256944980ff307fb8e07c9, type: 3}
       propertyPath: waypoints.Array.size
       value: 4
